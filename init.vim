@@ -9,14 +9,8 @@ set number
 
 " let g:webdevicons_enable_airline_tabline = 1
 let g:webdevicons_enable_airline_statusline = 1
-" :set encoding=utf8
-" :set guifont=DroidSansMono\ NFM
-" :set gfw=DroidSansMono\ NFM
-" set guifont=Hack
-
-
+let g:airline_powerline_fonts = 1
 call plug#begin()	
-
 
 Plug 'https://github.com/preservim/nerdtree' " NerdTree
 Plug 'https://github.com/ryanoasis/vim-devicons'
